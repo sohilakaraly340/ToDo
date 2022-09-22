@@ -1,0 +1,63 @@
+.App{
+    margin:  auto;
+    margin-top: 50px;
+    width: 80%;
+    background-color: #286677;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 50px;
+}
+.App .header{
+    padding-top: 35px;
+    padding-bottom:40px ;
+     text-align: center;
+}
+.cont{
+    margin: 0 auto;
+    width: 80%;
+}
+.todos h4{
+    text-align: center;
+}
+.taskbg{
+   border: 2px solid aliceblue;
+   border-radius: 5px;
+   margin: 20px;
+   font-size: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.taskbg .done .tasktext{
+    text-decoration: line-through;
+    opacity: 0.3;
+    flex: 1;
+}
+.icons{
+    padding-left: 10px;
+}
+.icons span{
+    padding-right: 15px;
+}
+.icons span:hover{
+    cursor: pointer;
+}
+.icons .notcomplete ,.icons #edit{
+    color: rgba(167, 163, 163, 0.749);
+}
+.icons .complete{
+    color: rgba(37, 167, 37, 0.789);
+}
+.icons #done:hover{
+    color: rgba(37, 167, 37, 0.789);
+}
+
+.icons #remove{
+    color: rgb(230, 26, 26);
+}
